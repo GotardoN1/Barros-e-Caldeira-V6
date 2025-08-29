@@ -1168,7 +1168,8 @@ body {
 
 .footer-links {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr;
+  justify-content: center;
   gap: 40px;
 }
 
@@ -1958,5 +1959,24 @@ body {
 .team-card.highlight {
   border: 2px solid var(--sand);
   box-shadow: 0 0 20px rgba(183, 169, 154, 0.3);
+}
+
+
+
+.contact-grid {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.contact-form {
+  margin: 0 auto;
+  max-width: 600px;
+  width: 100%;
+  padding: 40px;
+  background: var(--white);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
 }
 
